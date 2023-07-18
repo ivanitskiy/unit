@@ -11,7 +11,7 @@ mod bindings {
     #![allow(dead_code)]
     #![allow(clippy::all)]
     #![allow(improper_ctypes)]
-    #[allow(rustdoc::broken_intra_doc_links)]
+    #![allow(rustdoc::broken_intra_doc_links)]
     include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 }
 #[doc(no_inline)]
