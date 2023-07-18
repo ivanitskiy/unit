@@ -3,3 +3,4 @@ Makefile
 *.pyc
 __pycache__/
 wasm-demo/rust/target/
+.DS_Store
