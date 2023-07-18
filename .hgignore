@@ -4,3 +4,4 @@
 \.cache$
 \.pytest_cache$
 __pycache__/
+wasm-demo/rust/target/

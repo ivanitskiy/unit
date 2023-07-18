@@ -1,0 +1,19 @@
+[package]
+name = "unit-wasm-sys"
+version = "0.1.0"
+edition = "2021"
+categories = ["external-ffi-bindings"]
+description = "FFI bindings to Unit WASM"
+repository = "https://github.com/nginx/unit"
+homepage = "https://github.com/nginx/unit"
+license = "Apache-2.0"
+keywords = ["unit", "ffi", "sys"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["staticlib", "rlib"]
+
+[build-dependencies]
+
+bindgen = "0.66"
